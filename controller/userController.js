@@ -67,3 +67,5 @@ user.delete = function(req, res){
         }
     })
 }
+
+module.exports = model;
