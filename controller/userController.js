@@ -68,4 +68,4 @@ user.delete = function(req, res){
     })
 }
 
-module.exports = model;
+module.exports = user;
