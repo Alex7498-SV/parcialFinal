@@ -5,14 +5,16 @@ block content
   table
     thead
       tr
-        th _id
-        th Nickname
-        th Campeon Fav
-        th Fecha de ingreso 
+        th(scope ="col") _id
+        th(scope ="col") Nickname
+        th(scope ="col") Campeon Fav
+        th(scope ="col") Fecha de ingreso 
     tbody
 
       td 
-        tr 1
-        tr hola
-        tr ninguno
-        tr 7498
+        th(scope = "row") 1
+        tr(scope = "row") hola
+        tr(scope = "row") ninguno
+        tr(scope = "row") 7498
+
+
